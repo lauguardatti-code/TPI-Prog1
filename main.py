@@ -257,10 +257,10 @@ def menu_principal():
         elif opcion == "7":
             mostrar_lista_paises(paises)
         elif opcion == "8":
-            print("\n¡Gracias por utilizar el sistema! Saliendo...")
+            print("\nSaliendo del programa...")
             break
         else:
-            print("Opción no válida. Por favor, intente de nuevo.")
+            print("Opción no válida. Por favor intente de nuevo.")
 
 if __name__ == "__main__":
     menu_principal()
